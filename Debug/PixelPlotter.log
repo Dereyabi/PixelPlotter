@@ -1,0 +1,2 @@
+﻿  PixelDrawing.cpp
+PixelDrawing.cpp(82): error C4578: 'abs': conversion from 'float' to 'int', possible loss of data (Did you mean to call 'fabsf' or to #include <cmath>?)
