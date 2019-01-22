@@ -1,2 +1,9 @@
-﻿  PixelDrawing.cpp
-PixelDrawing.cpp(82): error C4578: 'abs': conversion from 'float' to 'int', possible loss of data (Did you mean to call 'fabsf' or to #include <cmath>?)
+﻿  stdafx.cpp
+  AssemblyInfo.cpp
+  PixelPlotter.cpp
+  Generating Code...
+  ColourConversions.cpp
+  PixelDrawing.cpp
+  Generating Code...
+  PixelPlotter.vcxproj -> D:\JStewart8\Desktop\PixelPlotter\Debug\PixelPlotter.exe
+  PixelPlotter.vcxproj -> D:\JStewart8\Desktop\PixelPlotter\Debug\PixelPlotter.pdb (Full PDB)
