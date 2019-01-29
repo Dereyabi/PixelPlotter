@@ -1,3 +1,12 @@
 ﻿  PixelDrawing.cpp
-  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  PixelPlotter.vcxproj -> D:\JStewart8\Desktop\PixelPlotter\Debug\PixelPlotter.exe
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(97): error C2059: syntax error: '<<'
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(101): error C2143: syntax error: missing ';' before '}'
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(102): error C2059: syntax error: '=='
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(107): error C2653: 'PixelPlotterForm': is not a class or namespace name
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(108): error C2143: syntax error: missing ';' before '{'
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(108): error C2447: '{': missing function header (old-style formal list?)
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(115): error C2653: 'PixelPlotterForm': is not a class or namespace name
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(120): error C2059: syntax error: '<<'
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(122): error C2653: 'PixelPlotterForm': is not a class or namespace name
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(123): error C2143: syntax error: missing ';' before '{'
+d:\jstewart8\desktop\pixelplotter\pixeldrawing.cpp(123): error C2447: '{': missing function header (old-style formal list?)
