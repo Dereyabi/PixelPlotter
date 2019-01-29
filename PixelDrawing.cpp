@@ -105,6 +105,8 @@ namespace PixelPlotter
 		rad = (360 * PI) / 180;
 
 
+
+
 		//2pi radiens /Sides
 	}
 
@@ -121,21 +123,23 @@ namespace PixelPlotter
 	void PixelPlotterForm::DrawCircle(int X, int Y, int R, Color PixelColour)
 	{
 		// Fill in the correct code here
-		int x = R - 1;
+
+		//not gonna lie I cant remember any of this so just ignore it
+		int x = R;
 		int y = 0;
 		int dx = 1;
 		int dy = 1;
-		int err = dx - (R << 1);
+		int err = dx - (R << 1);			//bitshifts r left 1
 		while (x >= y)
 		{
 			SetViewportPixel(X + x, Y + y, PixelColour);
-			//SetViewportPixel(X + y, Y + x, PixelColour);
-			//SetViewportPixel(X - y, Y + x, PixelColour);
-			//SetViewportPixel(X - x, Y + y, PixelColour);
-			//SetViewportPixel(X - x, Y - y, PixelColour);
-			//SetViewportPixel(X - y, Y - x, PixelColour);
-			//SetViewportPixel(X + y, Y - x, PixelColour);
-			//SetViewportPixel(X + x, Y - y, PixelColour);
+			SetViewportPixel(X + y, Y + x, PixelColour);
+			SetViewportPixel(X - y, Y + x, PixelColour);
+			SetViewportPixel(X - x, Y + y, PixelColour);
+			SetViewportPixel(X - x, Y - y, PixelColour);
+			SetViewportPixel(X - y, Y - x, PixelColour);
+			SetViewportPixel(X + y, Y - x, PixelColour);
+			SetViewportPixel(X + x, Y - y, PixelColour);
 
 			if (err <= 0)
 			{
